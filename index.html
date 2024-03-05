@@ -2,12 +2,100 @@
 <html>
 <head>
 <meta name="google-site-verification" content="uv-IGvduxhmEYy6CR3D0NLt36Z3pvi4iA88frWfghyo" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caratbee</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #bdc3c7, #2c3e50, #000000); /* Matte background */
+    font-family: Arial, sans-serif;
+    cursor: auto; /* Show default cursor */
+  }
+  
+  .content {
+    text-align: center;
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  .unique-text {
+    font-family: 'Comic Sans MS', cursive;
+    color: #e74c3c;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    font-size: 48px;
+    margin: 0;
+    align-self: flex-start;
+  }
+
+  .box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ffffff;
+    border-radius: 10px; /* Make the box rectangular with rounded corners */
+    overflow: hidden; /* Hide overflow to ensure the image stays within the box */
+    background-color: white; /* Set background color to white */
+  }
+
+  .box img {
+    width: 100%; /* Make the image fill the box */
+    height: 100%; /* Make the image fill the box */
+    object-fit: contain; /* Ensure the entire image is visible */
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust the margin to set the distance between the boxes and the buttons */
+  }
+
+  .button {
+    width: 100px;
+    margin: 0 330px; /* Adjust the margin to set the distance between buttons */
+    padding: 10px 20px;
+    background-color: #3498db; /* Blue color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #2980b9; /* Darker blue color on hover */
+  }
+</style>
 </head>
 <body>
-<h1>Hello World</h1>
-<h2>HEllo Sanskar</h2>
-<h1> GOOGLE CONSOLE </h1>
-<h2>HELLO <a href="https://joyrulez.com/Caratbee">CARATBEE</a></h2>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="content">
+        <h1 class="unique-text">Caratbee</h1>
+        <div class="box-container">
+          <div class="box">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo">
+          </div>
+          <div class="box">
+            <img src="https://mir-s3-cdn-cf.behance.net/user/276/bbbeb924624105.5c0790096d826.jpg" alt="Image 2">
+          </div>
+          <div class="box">
+            <img src="https://caratbee.com/cdn/shop/files/CARATBEE_8X12_903c4362-382d-4374-ab46-d0678e350c47.png?v=1705907746" alt="Image 3">
+          </div>
+        </div>
+        <div class="button-container">
+          <a href="https://sites.google.com/d/1Hnvmrhr5sGNJnPJRXMGU0QuVxGMLIVZH/p/10h6ke6Kr2QhAl0lykx1qmTBathGCPK-3/edit" class="button" style="margin-right: 5px;">GOOGLE SITE</a>
+          <a href="https://caratbeesocial.wixsite.com/pages" class="button" style="margin-right: 20px;">WIX SITE</a>
+          <a href="https://caratbee.com/" class="button"><center>WEBSITE</center></a>
+        </div>
+      </div>
 </body>
 </html>
